@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lux Towels Collection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+              <span>Lux Towels</span>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Collections</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Wrap Yourself in Pure Comfort</h1>
+            <p>Discover our premium range of soft, absorbent, and stylish towels.</p>
+            <a href="#collection" class="btn-hero">Shop Now</a>
+        </section>
+
+        <section id="collection" class="towels-collection">
+            <h2>Our Towels</h2>
+            <div class="towel-grid">
+                <div class="towel-card" data-name="Classic White" data-desc="A timeless, plush towel made with 100% organic cotton." data-img="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80">
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Classic White Towel">
+                    <h3>Classic White</h3>
+                    <p class="price">$18.99</p>
+                </div>
+                 <div class="towel-card" data-name="Pastel Pink" data-desc="Ultra soft pastel pink towel for a gentle touch." data-img="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80">
+                    <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Pastel Pink Towel">
+                    <h3>Pastel Pink</h3>
+                    <p class="price">$19.49</p>
+                </div>
+                <div class="towel-card" data-name="Charcoal Grey" data-desc="Modern luxury, extra absorbent and stylish." data-img="https://images.unsplash.com/photo-1482062364825-616fd23b8fc1?auto=format&fit=crop&w=400&q=80">
+                    <img src="https://images.unsplash.com/photo-1482062364825-616fd23b8fc1?auto=format&fit=crop&w=400&q=80" alt="Charcoal Grey Towel">
+                    <h3>Charcoal Grey</h3>
+                    <p class="price">$22.49</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <h2>Why Choose Lux Towels?</h2>
+            <ul>
+                <li><span>✓</span> 100% Organic Cotton</li>
+                <li><span>✓</span> Ultra Absorbent & Fast Dry</li>
+                <li><span>✓</span> Hypoallergenic & Skin-safe</li>
+                <li><span>✓</span> Vibrant, Lasting Colors</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Lux Towels. All rights reserved.</p>
+    </footer>
+
+    <!-- Modal for towel preview -->
+    <div class="modal" id="towelModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="" alt="" id="modalImage">
+            <h3 id="modalTitle"></h3>
+            <p id="modalDesc"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
